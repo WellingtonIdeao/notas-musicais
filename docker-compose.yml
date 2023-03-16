@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  notas_musicais:
+    build: .
+    container_name: notas-musicais
+    volumes:
+      - type: bind
+        source: ./
+        target: /app
+        read_only: true
+
