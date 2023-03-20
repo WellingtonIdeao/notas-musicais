@@ -24,7 +24,7 @@ mkdocstrings = "^0.20.0"
 mkdocstrings-python = "^0.8.3"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.4.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
